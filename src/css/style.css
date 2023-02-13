@@ -20,7 +20,7 @@ body {
   background-color: var(--advice-card-color);
   border-radius: 10px;
   margin: 20px;
-  width: 345px;
+  width: 545px;
 }
 
 .adivice .advice-id {
