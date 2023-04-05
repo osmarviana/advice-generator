@@ -18,10 +18,9 @@
   <body>
     <main class="card">
       <div class="adivice">
-        <h2 class="advice-id">Advice #111</h2>
-        <p class="advice-description">
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-          quisquam! Est esse veritatis."
+        <h2 class="advice-id" id="advice-id"></h2>
+        <p class="advice-description" id="advice-description">
+          Click on the dice to generate a advice.
         </p>
         <picture>
           <source
@@ -33,10 +32,12 @@
             alt="pattern divider"
           />
         </picture>
-        <button class="advice-update">
+        <button class="advice-update" id="advice-update">
           <img src="./src/images/icon-dice.svg" alt="dice icon" />
         </button>
       </div>
     </main>
+
+    <script src="./src/js/advice.js"></script>
   </body>
 </html>
